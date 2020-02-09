@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExoPlayerBug</string>
+    <string name="activity_explanation_text">This application shows a bug involving Google\'s Exoplayer where videos within a RecyclerView that are within a DialogFragment will, when scrolled off screen, render part of the video in the gap between the parent DialogFragment and the edge of the screen. \n\nTwo versions of DialogFragments will be demoed; an unmodified one and an example of a modified "RoundedDialogFragment" that explicitly defines its own margins. </string>
+</resources>
